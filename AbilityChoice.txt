@@ -14,7 +14,7 @@ public static class ModHelperData
     public const string RepoOwner = "doombubbles";
     public const string RepoName = "test-btd6-monorepo";
 
-    public const string SubPath = "AbilityChoice";
+    public const string SubPath = "AbilityChoice.txt";
     public const string DllName = "AbilityChoice.dll"
 
     public const string Icon = "AbilityChoice.png"
