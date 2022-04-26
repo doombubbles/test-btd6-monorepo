@@ -15,4 +15,5 @@ public static class ModHelperData
     public const string RepoName = "test-btd6-monorepo";
 
     public const string SubPath = "AbilityChoice";
+    public const string DllName = "AbilityChoice.dll"
 }
