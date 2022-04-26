@@ -16,4 +16,7 @@ public static class ModHelperData
 
     public const string SubPath = "AbilityChoice";
     public const string DllName = "AbilityChoice.dll"
+
+    public const string Icon = "AbilityChoice.png"
+
 }
