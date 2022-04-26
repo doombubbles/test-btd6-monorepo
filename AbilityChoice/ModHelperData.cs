@@ -12,7 +12,7 @@ public static class ModHelperData
         "Blue Icon: A new effect base on the theme of the upgrade path";
 
     public const string RepoOwner = "doombubbles";
-    public const string RepoName = "ability-choice";
+    public const string RepoName = "test-btd6-monorepo";
 
     public const string SubPath = "AbilityChoice";
 }
