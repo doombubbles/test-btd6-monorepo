@@ -13,4 +13,6 @@ public static class ModHelperData
 
     public const string RepoOwner = "doombubbles";
     public const string RepoName = "ability-choice";
+
+    public const string SubPath = "AbilityChoice";
 }

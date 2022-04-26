@@ -13,5 +13,7 @@
 
         public const string RepoOwner = "doombubbles";
         public const string RepoName = "mega-knowledge";
+
+        public const string SubPath = "MegaKnowledge";
     }
 }
