@@ -1,0 +1,10 @@
+﻿{
+  "Version": "2.0.0",
+  "Name": "AbilityChoice",
+  "Description": "",
+  "RepoOwner": "doombubbles",
+  "RepoName": "test-btd6-monorepo",
+  "SubPath": "AbilityChoice.txt",
+  "DllName": "AbilityChoice.dll",
+  "Icon": "AbilityChoice.png"
+}
