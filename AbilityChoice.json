@@ -4,7 +4,7 @@
   "Description": "",
   "RepoOwner": "doombubbles",
   "RepoName": "test-btd6-monorepo",
-  "SubPath": "AbilityChoice.txt",
+  "SubPath": "AbilityChoice.json",
   "DllName": "AbilityChoice.dll",
   "Icon": "AbilityChoice.png"
 }
