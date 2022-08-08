@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <RootNamespace>ExampleMonoRepoMod2</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>ExampleMonoRepoMod2</AssemblyName>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+        <Optimize>True</Optimize>
+        <DebugType>none</DebugType>
+    </PropertyGroup>
+
+    <Import Project="..\btd6.targets" />
+    
+    <!--A modification to also copy to the repo folder-->
+    <Target Name="CopyFilesToRepo" AfterTargets="Build">
+        <Copy SourceFiles="$(TargetDir)$(TargetName).dll" DestinationFiles="$(ProjectDir)..\$(ProjectName).dll" />
+        <Copy SourceFiles="$(ProjectDir)ModHelperData.json" DestinationFiles="$(ProjectDir)..\$(ProjectName).json" />
+    </Target>
+</Project>

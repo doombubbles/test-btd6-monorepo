@@ -1,0 +1,10 @@
+{
+  "Version": "1.0.0",
+  "Name": "ExampleMonoRepoMod2",
+  "Description": "A second example of a mod in a monorepo",
+  "RepoOwner": "doombubbles",
+  "RepoName": "test-btd6-monorepo",
+  "SubPath": "ExampleMonoRepoMod2.json",
+  "DllName": "ExampleMonoRepoMod2.dll",
+  "Icon": "ExampleMonoRepoMod2.png"
+}
