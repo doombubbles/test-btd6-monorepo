@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Name": "ExampleMonoRepoMod2",
   "Description": "A second example for modders of a mod in a monorepo",
   "RepoOwner": "doombubbles",

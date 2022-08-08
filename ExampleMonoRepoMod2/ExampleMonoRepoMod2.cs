@@ -2,7 +2,7 @@ using MelonLoader;
 using BTD_Mod_Helper;
 using ExampleMonoRepoMod2;
 
-[assembly: MelonInfo(typeof(ExampleMonoRepoMod2.ExampleMonoRepoMod2), "ExampleMonoRepoMod2", "1.0.0", "doombubbles")]
+[assembly: MelonInfo(typeof(ExampleMonoRepoMod2.ExampleMonoRepoMod2), "ExampleMonoRepoMod2", "1.0.1", "doombubbles")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
 namespace ExampleMonoRepoMod2;
